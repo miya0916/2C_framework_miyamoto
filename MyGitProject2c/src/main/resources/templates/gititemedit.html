@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>商品内容編集</h2>
+	<form th:action="@{/editcheck}" method="post>
+		商品名の変更:<input type="text" name="itemname"><br>
+		値段の変更:　<input type="text" name="itemprice"><br>
+		<input type="submit" value="変更">
+	</form>
+</body>
+</html>
